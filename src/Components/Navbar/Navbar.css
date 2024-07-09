@@ -1,0 +1,126 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2rem;
+    background: url(../Assets/Rectangle2.png);
+    background-size: cover;
+    background-position: center center;
+}
+.nav-logo{
+    gap: 20px;
+
+}
+.nav-logo p:nth-of-type(1) {
+    color:  rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+    font-family: "Archivo Black", sans-serif;
+}
+.nav-logo p:nth-of-type(2) {
+    color:  rgba(255, 255, 255, 1);
+    margin-top: -30px;
+    font-size: 1.2rem;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size:18px ;
+    font-weight:400 ;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 50px;
+    color:rgba(205, 208, 213, 1);
+    padding:0 1rem 0 1rem;
+    position: relative;
+    left: -150px;
+}
+.nav-menu a{
+    color:rgba(205, 208, 213, 1);
+    margin: 0 1.5rem 0 1.5rem;
+    cursor: pointer;
+}
+.nav-menu a:hover{
+    color: white;
+    cursor: pointer;
+}
+.search-element{
+    background-color:  rgba(255, 255, 255, 1) ;
+    position: relative;
+    left: 160px;
+}
+.search-element img{
+    position: relative;
+    top: 5px;
+    margin: 0 0.2rem;
+}
+.search-bar{
+    background-color:  rgba(255, 255, 255, 1) ;
+    color: rgba(134, 140, 152, 1);
+    height: 2.5rem;
+    width: 300px;
+    outline: none;
+    border: none;
+}
+.search-bar::placeholder{
+    font-size: 1rem;
+}
+.nav-cart{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+}
+.nav-cart li{
+    background-color:  rgba(255, 255, 255, 1) ;
+    padding: 0.3rem 0.4rem;
+    /* height: 1.5rem; */
+    height: 30px;
+}
+.nav-cart li:hover{
+    background-color: rgb(4, 28, 37);
+    cursor: pointer;
+}
+
+.nav-cart li:nth-of-type(2){
+margin-right: 0.5rem;
+}
+/* .nav-notification{
+    width: 12px;
+    max-height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6px;
+    bottom: 0;
+    right: -10px;
+    margin-top: -35px;
+    margin-right: -45px;
+    border-radius: 100%;
+    font-size: 12px;
+    color:#fff ;
+    background-color:rgba(138, 18, 168, 0.76) ;
+} */
+.hover{
+    color: white;
+}
+hr{
+    color: black;
+}
+.footer{
+    background-color: rgba(223, 227, 232, 1);
+    padding: 2rem;
+    text-align: center;
+}
+.footer ul{
+
+    place-items: center;
+    place-content: center;
+    list-style: none;
+    gap: 100px;
+}

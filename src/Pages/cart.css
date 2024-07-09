@@ -1,0 +1,239 @@
+
+.cart-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cart-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: helvetica ;
+    margin: 1rem;
+   
+}
+.cart-header h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cart-header button{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(140, 147, 163, 1);
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+}
+.cart-header img{
+    position: relative;
+    top: 5px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.cart-section{
+ width: 700px;
+}
+.cart-section hr{
+    color: rgba(178, 183, 194, 1);
+}
+.cart-section .frame-page{
+    width:200px ;
+    height: 300px;
+}
+.cart-section li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.flex-sec span{
+    display: block;
+    font-size: 18px;
+font-weight: 600;
+position: relative;
+left: -10px;
+top: -30px;
+}
+ .cart-section .text-link{
+    position: relative;
+    left: -130px;
+}
+.flex-sec img{
+    display: block;
+    margin-left: -120px;
+}
+
+.text-link div{
+    background-color: #fff;
+    padding: 1.2rem;
+}
+
+.text-link span{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+.checkout-section{
+    width: 400px;
+    margin: 2rem 3rem 2rem 2rem;
+
+}
+.checkout-section li{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color:rgba(15, 29, 64, 1);
+}
+
+.checkout-section .span-color{
+    font-weight: bold;
+    font-size: 18px;
+}
+.checkout-section hr{
+    border: 1px dashed rgba(178, 183, 194, 1);
+}
+.checkout-section button{
+    width: 370px;
+    height: 2rem;
+    background-color: rgba(32, 35, 45, 1);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+.checkout-section button:hover{
+    width: 370px;
+    height: 2rem;
+    background-color: rgb(100, 117, 175);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+
+.mail_to input{
+    height: 2rem;
+    outline: none;
+    border: none;
+  }
+  .mail_to img{
+      height: 20px;
+      width: 20px;
+      position: relative;
+      top:12.3px;
+  background-color: white;
+  padding: 0.43rem;
+  }
+  .mail_to button{
+    height: 2.1rem;
+    outline: none;
+    border: none;
+    background-color: rgba(32, 35, 45, 1);
+    color: #fff;
+  }
+  .contact-us{
+    text-align: center;
+    margin:1rem auto;
+  }
+
+
+  @media(max-width:768px){
+    .cart-page{
+        display: grid;
+        grid-template-columns: 100%;
+            margin: 0 auto;
+    }
+    .cart-section{
+        max-width: 500px;
+    }
+    .cart-section .frame-page{
+        width:100px ;
+        height: 200px;
+    }
+    .cart-section li{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1rem 0rem;
+    }
+       
+    .text-link{
+    max-width: 300px;
+}
+    .text-link div{
+        background-color: #fff;
+        padding: 0.4rem;
+    }
+    
+    .text-link span{
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 0 1rem;
+        padding: 0;
+    }
+    
+
+    .checkout-section{
+        max-width: 500px;
+        margin: 2rem 3rem 2rem 0rem;
+        
+    }
+    .checkout-section ul{
+        padding-left: 0;
+    }
+    .checkout-section button{
+        width: 400px;
+        
+    }
+    .contact-us{
+        text-align: center;
+        margin:1rem auto;
+        max-width: 500px;
+      }
+    
+
+
+
+
+
+
+
+    .flex-sec span{
+        display: block;
+        font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    left: -10px;
+    }
+     .cart-section .text-link{
+        position: relative;
+        left: -130px;
+    }
+    .flex-sec img{
+        display: block;
+    }
+    
+    .text-link div{
+        background-color: #fff;
+        padding: 1.2rem;
+    }
+    
+    .text-link span{
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0 1rem;
+    }
+
+  }

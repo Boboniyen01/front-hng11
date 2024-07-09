@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a925eef.css",
+    "main.js": "/static/js/main.c2ff2e77.js",
+    "static/js/453.2a2d7d8c.chunk.js": "/static/js/453.2a2d7d8c.chunk.js",
+    "static/media/Rectangle1.png": "/static/media/Rectangle1.764cd9ad941cd69126fe.png",
+    "static/media/Rectangle2.png": "/static/media/Rectangle2.9b85ce7e48a50e48f615.png",
+    "static/media/Frame7.png": "/static/media/Frame7.f3639499b518359fd87f.png",
+    "static/media/Frame6.png": "/static/media/Frame6.6885325f312df053b702.png",
+    "static/media/Frame3.png": "/static/media/Frame3.f5cdcd1bf83c58cf4274.png",
+    "static/media/Frame2.png": "/static/media/Frame2.c0bfd654e5c76ce2a3d1.png",
+    "static/media/Frame5.png": "/static/media/Frame5.ffe794504ffb01b23751.png",
+    "static/media/Frame4.png": "/static/media/Frame4.29347d052c2d2300ee09.png",
+    "static/media/Frame1.png": "/static/media/Frame1.cba450afd6a2ee38c695.png",
+    "static/media/Frame8.png": "/static/media/Frame8.ab766b776e42d93a8012.png",
+    "static/media/Frame9.png": "/static/media/Frame9.4bf622fdbef64ccf37db.png",
+    "static/media/long.jpg": "/static/media/long.0f20fce702092d6b41d3.jpg",
+    "static/media/box.png": "/static/media/box.2a7cdcccb6bd4110e35d.png",
+    "static/media/cart_product.svg": "/static/media/cart_product.363cf25ac1f160d0807c3175f22ce5cb.svg",
+    "static/media/cart_icon.svg": "/static/media/cart_icon.acf950c2cd32f95d789397c04bbac901.svg",
+    "static/media/user_logo.svg": "/static/media/user_logo.3a848fa0be846ab108a88f96b03e42a8.svg",
+    "static/media/home_icon.svg": "/static/media/home_icon.e18da43fe39260f42c50fd261dd75d70.svg",
+    "index.html": "/index.html",
+    "static/media/delete_2.svg": "/static/media/delete_2.5e6420a1f2633f186e802a1260b0aa46.svg",
+    "static/media/login_icon.svg": "/static/media/login_icon.2ad87095d4dc65436127ca458c111eac.svg",
+    "static/media/Vector.svg": "/static/media/Vector.e47a537e92ce67a7f1f7c1f06ba39ad4.svg",
+    "static/media/delete_icon.svg": "/static/media/delete_icon.033d0b9c4a12eb8e78b8e9f76ddebf1b.svg",
+    "static/media/mail_icon.svg": "/static/media/mail_icon.6d6b69e92b6007aabb1e074d34f117e5.svg",
+    "static/media/search_icon.svg": "/static/media/search_icon.76406efed03c5848a549c548e31cdf36.svg",
+    "static/media/arrow.svg": "/static/media/arrow.e81860ea3d7fd87d0c8d73c9bb687bec.svg",
+    "main.9a925eef.css.map": "/static/css/main.9a925eef.css.map",
+    "main.c2ff2e77.js.map": "/static/js/main.c2ff2e77.js.map",
+    "453.2a2d7d8c.chunk.js.map": "/static/js/453.2a2d7d8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a925eef.css",
+    "static/js/main.c2ff2e77.js"
+  ]
+}
